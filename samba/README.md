@@ -1,5 +1,5 @@
 
-| ![Stop][stop_sign] | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-samba-interface repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | ![Stop][stop_sign] |
+| <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-samba-interface repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> |
 | --- | --- | --- |
 
 # Home Assistant Custom Add-on: Samba share - with interfaces configuration
@@ -68,5 +68,4 @@ It lets you access your config files with Windows and macOS devices.
 [updated-shield]: https://img.shields.io/github/last-commit/lmagyar/homeassistant-addon-samba-interface/master?label=updated
 [updated]: https://github.com/lmagyar/homeassistant-addon-samba-interface/commits/master
 [warning_stripe]: https://github.com/lmagyar/homeassistant-addon-samba-interface/raw/master/images/warning_stripe_wide.png
-[stop_sign]: https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png
 [official_addon]: https://github.com/home-assistant/addons/tree/master/samba
