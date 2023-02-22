@@ -2,7 +2,7 @@
 | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-samba-interface repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> |
 | --- | --- | --- |
 
-# Home Assistant Custom Add-on: Samba share - with interfaces configuration
+# Home Assistant Custom Add-on: Samba share with interfaces configuration
 
 ![Warning][warning_stripe]
 
@@ -20,8 +20,8 @@
 >
 > ```
 > interfaces:
->  - eth0
->  - wlan0
+>   - eth0
+>   - wlan0
 > ```
 
 ![Warning][warning_stripe]
@@ -61,7 +61,7 @@ It lets you access your config files with Windows and macOS devices.
 [installations-shield]: https://img.shields.io/badge/dynamic/json?label=reported%20installations&query=$[%27ba124dcc_samba%27].total&url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json
 [license-shield]: https://img.shields.io/github/license/lmagyar/homeassistant-addon-samba-interface.svg
 [licence]: https://github.com/lmagyar/homeassistant-addon-samba-interface/blob/master/LICENSE
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-custom-orange.svg
 [releases-shield]: https://img.shields.io/github/tag/lmagyar/homeassistant-addon-samba-interface.svg?label=release
 [releases]: https://github.com/lmagyar/homeassistant-addon-samba-interface/tags

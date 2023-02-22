@@ -2,7 +2,7 @@
 | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-samba-interface repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> |
 | --- | --- | --- |
 
-# Home Assistant Custom Add-on: Samba share - with interfaces configuration
+# Home Assistant Custom Add-on: Samba share with interfaces configuration
 
 ![Warning][warning_stripe]
 
@@ -20,8 +20,8 @@
 >
 > ```
 > interfaces:
->  - eth0
->  - wlan0
+>   - eth0
+>   - wlan0
 > ```
 
 ![Warning][warning_stripe]
@@ -32,7 +32,7 @@ Follow these steps to get the add-on installed on your system:
 
 1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on Store**.
 2. In the **...** menu at the top right corner click **Repositories**, add `https://github.com/lmagyar/homeassistant-addon-samba-interface` as repository.
-3. Find the "Samba share - with interfaces configuration" add-on and click it. If it doesn't show up, wait until HA refreshes the information about the add-on, or click **Reload** in the **...** menu at the top right corner.
+3. Find the "Samba share with interfaces configuration" add-on and click it. If it doesn't show up, wait until HA refreshes the information about the add-on, or click **Reload** in the **...** menu at the top right corner.
 4. Click on the "INSTALL" button.
 
 ## How to use
