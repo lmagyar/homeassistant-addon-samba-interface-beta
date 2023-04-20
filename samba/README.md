@@ -2,19 +2,25 @@
 | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-samba-interface repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> |
 | --- | --- | --- |
 
-# Home Assistant Custom Add-on: Samba share with interfaces configuration
+# Home Assistant Custom Add-on: Samba share with features
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the [official add-on][official_addon]! This restores the possibility to specify `interfaces` in the configuration.
+> This is a **fork** of the [official add-on][official_addon]!
 >
-> Updates are released when the official add-on changes (changes are merged).
+> Changes:
+>   - Restores the possibility to specify `interfaces` in the configuration.
 >
-> By default, the configuration is `interfaces: []`, so Samba will run on all interfaces and list possible interface values as warning in the log.
+> By default, the configuration is `interfaces: []`, so Samba will run on all
+> interfaces and list possible interface values as warning in the log.
 
-> **Note:** Please use `interfaces`, the plural form, with an _**S**_ at the end.
+> **Note:** Please use `interfaces`, the plural form, with an _**S**_ at the
+> end.
 >
-> The official add-on in the past used a plain string and we were able to add multiple interfaces separated with a space, but this forked version uses a string list, because this is the way how we should specify multiple items, ie. a list, like `veto_files` and `allow_hosts`.
+> The official add-on in the past used a plain string and we were able to add
+> multiple interfaces separated with a space, but this forked version uses a
+> string list, because this is the way how we should specify multiple items, ie.
+> a list, like `veto_files` and `allow_hosts`.
 >
 > So the correct form is:
 >
@@ -62,7 +68,7 @@ It lets you access your config files with Windows and macOS devices.
 [license-shield]: https://img.shields.io/github/license/lmagyar/homeassistant-addon-samba-interface.svg
 [licence]: https://github.com/lmagyar/homeassistant-addon-samba-interface/blob/master/LICENSE
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-custom-orange.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-green.svg
 [releases-shield]: https://img.shields.io/github/tag/lmagyar/homeassistant-addon-samba-interface.svg?label=release
 [releases]: https://github.com/lmagyar/homeassistant-addon-samba-interface/tags
 [updated-shield]: https://img.shields.io/github/last-commit/lmagyar/homeassistant-addon-samba-interface/master?label=updated

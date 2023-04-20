@@ -2,19 +2,25 @@
 | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-samba-interface repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | <img src="https://github.com/lmagyar/homeassistant-addon-samba-interface-beta/raw/master/images/stop_sign.png" title="Stop"> |
 | --- | --- | --- |
 
-# Home Assistant Custom Add-on: Samba share with interfaces configuration
+# Home Assistant Custom Add-on: Samba share with features
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the [official add-on][official_addon]! This restores the possibility to specify `interfaces` in the configuration.
+> This is a **fork** of the [official add-on][official_addon]!
 >
-> Updates are released when the official add-on changes (changes are merged).
+> Changes:
+>   - Restores the possibility to specify `interfaces` in the configuration.
 >
-> By default, the configuration is `interfaces: []`, so Samba will run on all interfaces and list possible interface values as warning in the log.
+> By default, the configuration is `interfaces: []`, so Samba will run on all
+> interfaces and list possible interface values as warning in the log.
 
-> **Note:** Please use `interfaces`, the plural form, with an _**S**_ at the end.
+> **Note:** Please use `interfaces`, the plural form, with an _**S**_ at the
+> end.
 >
-> The official add-on in the past used a plain string and we were able to add multiple interfaces separated with a space, but this forked version uses a string list, because this is the way how we should specify multiple items, ie. a list, like `veto_files` and `allow_hosts`.
+> The official add-on in the past used a plain string and we were able to add
+> multiple interfaces separated with a space, but this forked version uses a
+> string list, because this is the way how we should specify multiple items, ie.
+> a list, like `veto_files` and `allow_hosts`.
 >
 > So the correct form is:
 >
@@ -30,18 +36,23 @@
 
 Follow these steps to get the add-on installed on your system:
 
-1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on Store**.
-2. In the **...** menu at the top right corner click **Repositories**, add `https://github.com/lmagyar/homeassistant-addon-samba-interface` as repository.
-3. Find the "Samba share with interfaces configuration" add-on and click it. If it doesn't show up, wait until HA refreshes the information about the add-on, or click **Reload** in the **...** menu at the top right corner.
-4. Click on the "INSTALL" button.
+1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** ->
+   **Add-on Store**.
+1. In the **...** menu at the top right corner click **Repositories**, add
+   `https://github.com/lmagyar/homeassistant-addon-samba-interface` as
+   repository.
+1. Find the "Samba share with features" add-on and click it. If it doesn't show
+   up, wait until HA refreshes the information about the add-on, or click
+   **Reload** in the **...** menu at the top right corner.
+1. Click on the "INSTALL" button.
 
 ## How to use
 
 1. In the configuration section, set a username and password.
    You can specify any username and password; these are not related in any way to the login credentials you use to log in to Home Assistant or to log in to the computer with which you will use Samba share.
-2. Save the configuration.
-3. Start the add-on.
-4. Check the add-on log output to see the result.
+1. Save the configuration.
+1. Start the add-on.
+1. Check the add-on log output to see the result.
 
 ## Connection
 
@@ -137,13 +148,11 @@ You have several options to get them answered:
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-In case you've found a bug, please open an issue on our GitHub: [issue with the official add-on][issue] or [issue with with interfaces configuration][issue_forked]
+In case you've found a bug, please [open an issue on our GitHub][issue].
 
 [discord]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io
-[issue]: https://github.com/home-assistant/hassio-addons/issues
-[issue_forked]: https://github.com/lmagyar/homeassistant-addon-samba-interface/issues
+[issue]: https://github.com/lmagyar/homeassistant-addon-samba-interface/issues
 [reddit]: https://reddit.com/r/homeassistant
-[repository]: https://github.com/hassio-addons/repository
 [warning_stripe]: https://github.com/lmagyar/homeassistant-addon-samba-interface/raw/master/images/warning_stripe_wide.png
 [official_addon]: https://github.com/home-assistant/addons/tree/master/samba
