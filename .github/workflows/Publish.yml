@@ -26,6 +26,6 @@ jobs:
           --no-latest \
           --${{ matrix.arch }} \
           --target samba \
-          --docker-hub hcr.io/${{ github.actor }}
+          --docker-hub ghcr.io/${{ github.actor }}
       env:
         CAS_API_KEY: ${{ secrets.CAS_TOKEN }}
