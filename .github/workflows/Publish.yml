@@ -23,7 +23,6 @@ jobs:
       uses: home-assistant/builder@2023.03.0
       with:
         args: |
-          --no-latest \
           --${{ matrix.arch }} \
           --target samba \
           --docker-hub ghcr.io/${{ github.actor }}
