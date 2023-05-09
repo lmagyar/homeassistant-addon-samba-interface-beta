@@ -1,6 +1,6 @@
 # Changelog
 
-## 10.0.0.4 (forked)
+## vNext (forked)
 
 - Make Samba log level configurable
 - In case of empty interface list use only notice log level, not warning
