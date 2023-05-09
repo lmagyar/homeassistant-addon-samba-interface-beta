@@ -4,15 +4,18 @@
 
 # Home Assistant Custom Add-on: Samba share with features
 
+Share your configuration over the network using Windows file sharing.
+
 ![Warning][warning_stripe]
 
 > This is a **fork** of the [official add-on][official_addon]!
 >
 > Changes:
->   - Restores the possibility to specify `interfaces` in the configuration.
+>   - Restore the possibility to specify `interfaces` in the configuration
+>   - Make Samba log level configurable
 >
 > By default, the configuration is `interfaces: []`, so Samba will run on all
-> interfaces and list possible interface values as warning in the log.
+> interfaces and list possible interface values as notice in the log.
 
 > **Note:** Please use `interfaces`, the plural form, with an _**S**_ at the
 > end.
@@ -31,8 +34,6 @@
 > ```
 
 ![Warning][warning_stripe]
-
-Share your configuration over the network using Windows file sharing.
 
 [![GitHub Release][releases-shield]][releases]
 [![Last Updated][updated-shield]][updated]
