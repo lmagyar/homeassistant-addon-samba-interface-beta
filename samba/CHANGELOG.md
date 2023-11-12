@@ -1,5 +1,12 @@
 # Changelog
 
+## vNext (forked)
+
+***BREAKING CHANGES:***
+- The `homeassistant` share has been renamed BACK to `config` (this will be the final name in the original add-on also)
+
+  ***Note:*** This fork doesn't drop temporarily the access to the `addon_configs` share until the new Supervisor release is out
+
 ## 11.0.0.1 (forked)
 
 ***BREAKING CHANGES:***
