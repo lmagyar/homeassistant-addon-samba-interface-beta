@@ -1,5 +1,10 @@
 # Changelog
 
+## vNext (forked)
+
+- Update Samba to v4.18.9-r0
+- Update Add-on base image to v15.0.0 (Update Alpine base image to v3.19.0)
+
 ## 12.2.0.0 (forked)
 
 - Revert: Make Samba log level configurable
