@@ -1,5 +1,5 @@
 ---
-version: 12.2.0.0-rc01
+version: 12.2.0.1-rc01
 slug: samba-beta
 name: "[BETA] Samba share with features"
 description: "[BETA] Expose Home Assistant folders with SMB/CIFS"
