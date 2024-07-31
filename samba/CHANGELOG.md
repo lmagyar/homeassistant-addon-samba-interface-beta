@@ -1,5 +1,13 @@
 # Changelog
 
+## VNext (forked)
+
+- Update Add-on base image to v16.2.0
+
+## 12.3.2
+
+- Suppress benign idmap logged error
+
 ## 12.3.1.2 (forked)
 
 - Update Samba to v4.19.6-r0
