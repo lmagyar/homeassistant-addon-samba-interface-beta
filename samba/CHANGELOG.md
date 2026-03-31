@@ -2,7 +2,7 @@
 
 ## vNext (forked)
 
-- Update samba to v4.21.9-r1
+- Update samba to v4.22.8-r0
 - Update App base image to v20
 - Remove deprecated codenotary fields
 
@@ -13,7 +13,7 @@
 ## 12.6.0
 
 - Do initial healthcheck after 3s to speedup startup
-~- Update base image to Alpine 3.23 (base image tag 3.23-2026.02.0)~ (forked version uses hassio-addons base images)
+- ~Update base image to Alpine 3.23 (base image tag 3.23-2026.02.0)~ (forked version uses hassio-addons base images)
 - Drop builds of unsupported architectures
 
 ## 12.5.4.2 (forked)
