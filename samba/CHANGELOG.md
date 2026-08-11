@@ -1,8 +1,13 @@
 # Changelog
 
+## vNext (forked)
+
+- Properly handle failure during service startup
+
 ## 12.10.0.1 (forked)
 
 - Update App base image to v21.0.1
+- Graceful shutdown on SIGTERM caused by manual app stop
 
 ## 12.10.0
 
