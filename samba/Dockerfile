@@ -1,13 +1,9 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:21.0.8
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:21.0.12
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
-# Environment variables
-ENV \
-    LANG="C.UTF-8" \
-    # App log format
-    LOG_FORMAT="{TIMESTAMP} {LEVEL}: {MESSAGE}" \
-    LOG_TIMESTAMP="%Y-%m-%d %H:%M:%S"
+# Add env
+ENV LANG=C.UTF-8
 
 # Setup base
 RUN \
@@ -25,8 +21,9 @@ RUN \
 # Copy root filesystem
 COPY rootfs /
 
-HEALTHCHECK --start-period=3s \
+HEALTHCHECK --start-period=30s --start-interval=5s --interval=30s \
     CMD healthcheck
 
 ENV \
+    LOG_FORMAT="{LEVEL}: {MESSAGE}" \
     S6_STAGE2_HOOK=/etc/s6-overlay/scripts/enable-check.sh
